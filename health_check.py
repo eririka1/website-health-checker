@@ -1,4 +1,4 @@
-
+from datetime import datetime, timezone
 from time import perf_counter
 import sys
 from urllib.request import urlopen
@@ -7,7 +7,7 @@ from urllib.error import URLError, HTTPError
 website = sys.argv[1] if len(sys.argv) > 1 else "https://example.com"
 
 print(f"Checking {website}")
-
+print(f"Checked at: {datetime.now(timezone.utc).isoformat(timespec='seconds')}")
 start_time = perf_counter()
 
 try:
