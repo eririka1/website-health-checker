@@ -1,1 +1,1 @@
-Monitor status: checked by Developer B
+Monitor status: checked by Developer A and Developer B
