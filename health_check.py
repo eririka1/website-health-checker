@@ -30,4 +30,4 @@ except (HTTPError, URLError, ValueError) as error:
     print("Status: DOWN")
     print(f"Error: {error}")
     sys.exit(1)
-if True print("CI failure test")
+
