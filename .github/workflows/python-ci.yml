@@ -4,7 +4,9 @@ name: Python CI
 on:
   push:
     branches:
+      - main
       - practice/ci-workflow
+
   pull_request:
     branches:
       - main
